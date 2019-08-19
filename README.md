@@ -22,7 +22,7 @@ Source: [Google I/O 2011](https://www.youtube.com/watch?time_continue=8&v=-i0hat
 | Client               | API                     | Moustachio |
 | :---                 | :--------------:        | ----:      |
 |                      | ==GET/==>               | upload     |
-|                      | <== <html><form>        | upload     |
+|                      | <== `<html><form>`      | upload     |
 | upload.html template |  ==POST/(with image)==> | upload     |
 |                      | <==Redirect: /view?id=ID| upload     |
 |                      | ==GET/view?id=ID==>     | view       |
